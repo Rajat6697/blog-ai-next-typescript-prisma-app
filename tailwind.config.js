@@ -16,8 +16,20 @@ module.exports = {
         "accent-red" : "#EA9648",
         "accent-orange" : "#F6CF68",
         "accent-green" : "#C2E9B4",
+      },
+      backgroundImage : (theme)=> ({
+        "gradient-gradual" : "linear-gradient(180deg, rgba(116, 116, 116, 0) 66.15%, #000000 100%)"
+      })
+      },
+      screens : {
+        xs : "480px",
+        sm : "768px",
+        md : "1060px"
       }
-    },
+
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/line-clamp"),
+  ],
 }
