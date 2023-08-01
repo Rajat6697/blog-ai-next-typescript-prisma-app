@@ -18,7 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html className={openSans.className} lang="en">
+      <Navbar />
       <body >{children}</body>
+      {/* <Footer/> */}
     </html>
   )
 }
