@@ -1,4 +1,4 @@
-import Navbar from './(shared)/Navbar';
+import Navbar from 'app/(shared)/Navbar';
 import './globals.css'
 import { Open_Sans } from 'next/font/google';
 
