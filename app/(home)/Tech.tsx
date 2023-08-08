@@ -15,6 +15,10 @@ const Tech = (props: Props) => {
             Latest New in Technology
         </p>
         </div>
+
+        <div className='flex justify-between items-center gap-5'>
+
+        </div>
     </section>
   )
 }
