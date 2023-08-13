@@ -40,10 +40,10 @@ const Trending = (props: Props) => {
       </div>
 
       <div className="sm:grid gap-5 grid-cols-4 grid-rows-2 sm:h-[600px]">
-        <TrendingCard className="col-span-2 row-span-2 bg-wh-500" />
+        {/* <TrendingCard className="col-span-2 row-span-2 bg-wh-500" />
         <TrendingCard className="col-span-2 row-span-1 bg-wh-500" />
         <TrendingCard className="col-span-1 row-span-1 bg-wh-500" />
-        <TrendingCard className="col-span-1 row-span-1 bg-wh-500" />
+        <TrendingCard className="col-span-1 row-span-1 bg-wh-500" /> */}
       </div>
       <p className="text-sm m-2">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit harum error esse perferendis consectetur! Iusto, vel debitis ab sit esse, earum consequuntur.
