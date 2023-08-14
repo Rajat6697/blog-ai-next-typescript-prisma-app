@@ -33,7 +33,7 @@ const Card = ({className, imageHeight, isSmallCard = false, isLongForm = false}:
             </h6>
 
         </div>
-        <p className={`text-wh-500 ${isLongForm ? "line-clamp-5" : "line-clamp-3"}`}>
+        <p className={`text-wh-100 ${isLongForm ? "line-clamp-5" : "line-clamp-3"}`}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut earum at nam veritatis dicta. Aspernatur eveniet sit eum, saepe molestiae quidem repudiandae neque expedita quis. Deleniti placeat exercitationem voluptatibus ipsum.
         Officia est sed aspernatur fuga ad dolore, nihil voluptas accusamus eaque eos aliquid iusto ducimus fugiat! At tempore nostrum, alias, beatae quo ipsa veniam error, excepturi sunt nemo ducimus tenetur!
         Omnis ratione facere voluptatum, sed esse eum eaque totam facilis nobis hic recusandae, delectus beatae reiciendis eius tempora accusamus at aut aspernatur vero ab. Quod alias deserunt maxime a aut.
