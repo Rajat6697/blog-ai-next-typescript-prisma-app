@@ -17,9 +17,9 @@ const Sidebar = (props: Props) => {
         <div className='bg-wh-900 my-8'>
             advert images
         </div>
-        <h4 className="bg-wh-900 py-3 px-5 text-wh-50 text-xs font-bold text-center">
+        {/* <h4 className="bg-wh-900 py-3 px-5 text-wh-50 text-xs font-bold text-center">
           About The Blog
-        </h4> 
+        </h4>  */}
         <div className='bg-wh-900 my-8'>
             Profile Img
         </div>  
