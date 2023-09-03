@@ -6,6 +6,19 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "mongodb"
   url      = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+model Post {
+  id       String    @id  @map("_id")  // Use auto-incrementing ID
+  createdAt DateTime  @default(now())     // Set the default value to the current date and time
+  updatedAt DateTime  @updatedAt          // Automatically update the timestamp when the record is updated
+  title    String
+  category String
+  content  String  
+  author   String
+  image    String
+  snippet  String   
 }
